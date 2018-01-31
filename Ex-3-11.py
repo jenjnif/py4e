@@ -1,6 +1,7 @@
 # exercises from chapter 1 are word answers, not programs so they
 # have not been recorded on git
 
+# CHAPTER 3:
 
 #3.11 exercises
 # 1 - Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above 40 hours.
@@ -93,6 +94,8 @@ elif score < 0.6:
     print('F')
 else:
     print('Bad Score')
+
+
 
 
 
