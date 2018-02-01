@@ -3,6 +3,13 @@
 
 
 #2.15 exercises
+
+#1: Type the following statements in the Python interpreter to see what they do:
+# 5
+# x=5
+# x+1
+
+
 # 2 - Write a program that uses input to prompt a user for their name and then welcomes them.
 name = input('Enter your name\n')
 print('Hello ' + name)
@@ -20,7 +27,7 @@ width = 17
 height = 12.0
 
 # For each of the following expressions, write the value of the expression
-# and the type (of the value of the expression).
+# and the type (of the value of the ).
 # 1. width//2
 one = width//2
 print(one)
