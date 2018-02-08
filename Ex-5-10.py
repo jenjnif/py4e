@@ -44,22 +44,23 @@ count = 0
 smallest = None
 biggest = None
 
+
 while True:
     number = input("Enter a number: ")
     try:
-        number_input = float(number)
+        number_input = int(number)
     except Exception as e:
         if number == 'done':
-            print(total, count, average)
+            print('total is ',total,'count is ',count, 'biggest is ',biggest, 'smallest is ',smallest)
             exit()
         else:
             print("Invalid input")
             continue
-    for number in numbers():
-        if smallest is None or number < smallest:
-            smallest = number
-            print(total, count, smallest)
-
+    if smallest is None or number_input < smallest:
+        smallest = number_input
+        print('Smallest number so far is ' + str(number_input))
+    if biggest is None or number_input > biggest:
+        biggest = number_input
+        print('Biggest number so far is: ' + str(number_input))
     total = total + number_input
     count = count + 1
-    print('well done')
