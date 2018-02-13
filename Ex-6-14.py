@@ -1,5 +1,4 @@
 # CHAPTER 6:
-
 # 6.14 exercises
 
 # 1 - Write a while loop that starts at the last character in the string and works its way backwards to the
